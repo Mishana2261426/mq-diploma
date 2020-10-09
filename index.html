@@ -7,12 +7,42 @@
       <link rel="stylesheet" href="css/style.css">
    </head>
    <body>
+      <div class="popup _hiden">
+         <div class="popup-content">
+            <button class="popup-close" type="button">Закрыть окно</button>
+            <h2 class="popup-title title">Ваш фидбек</h2>
+            <form action="#0" class="popup-form">
+               <label class="popup-form-text" for="visit">Как часто вы заходите на сайт ?</label>
+               <select id="visit" class="popup-form-select">
+                  <option>Почти каждый день</option>
+                  <option>Раз в несколько дней</option>
+                  <option>Раз в несколько недель</option>
+                  <option>Несколько раз в год</option>
+               </select>
+               <span class="popup-form-text">Вы подписаны на email рассылку ?</span>
+               <div class="mailing">
+                  <label class="radio-group">
+                  <input type="radio" class="radio" name="radio-group">
+                  <span class="radio-group-text">Да</span>
+                  </label>
+                  <label class="radio-group">
+                  <input type="radio" class="radio" name="radio-group">
+                  <span class="radio-group-text">Нет</span>
+                  </label> 
+               </div>
+               <label class="popup-form-text" for="preferences">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</label>
+               <textarea id="preferences" class="popup-form-textarea"></textarea>
+               <button type="submit" class="popup-form-button form-button">Подписаться</button>
+            </form>
+            <button class="popup-close" type="button">Закрыть окно</button>
+         </div>
+      </div>
       <header class="header">
          <div class="container">
             <div class="navigation">
                <img src="svg/noemi-logo.svg" alt="NOEMI" class="header-logo">
                <a href="#0" class="hamburger-menu">
-                  <img src="svg/hamburger-menu.svg" alt="hamburger">
+               <img src="svg/hamburger-menu.svg" alt="hamburger">
                </a>
                <nav class="menu">
                   <ul class="menu-list">
@@ -47,8 +77,8 @@
       </header>
       <h2 class="title">Сейчас в тренде</h2>
       <div class="trends">
-      	<article class="trends-block">
-      		<div class="trends-content">
+         <article class="trends-block">
+            <div class="trends-content">
                <ul class="content-tags-list">
                   <li class="content-tags-list-item">
                      <a href="#0" class="content-tags-link">Travel</a>
@@ -57,12 +87,12 @@
                      <a href="#0" class="content-tags-link">Health</a>
                   </li>
                </ul>
-      			<h3 class="trends-content-title">
-      				<a href="" class="trends-content-title-link">Сейчас в тренде: сад на подоконнике</a>
-      			</h3>
-      		</div>
-      	</article>
-      	<article class="trends-block">
+               <h3 class="trends-content-title">
+                  <a href="" class="trends-content-title-link">Сейчас в тренде: сад на подоконнике</a>
+               </h3>
+            </div>
+         </article>
+         <article class="trends-block">
             <div class="trends-content">
                <ul class="content-tags-list">
                   <li class="content-tags-list-item">
@@ -74,7 +104,7 @@
                </h3>
             </div>
          </article>
-      	<article class="trends-block">
+         <article class="trends-block">
             <div class="trends-content">
                <ul class="content-tags-list">
                   <li class="content-tags-list-item">
@@ -89,7 +119,7 @@
                </h3>
             </div>
          </article>
-      	<article class="trends-block">
+         <article class="trends-block">
             <div class="trends-content">
                <ul class="content-tags-list">
                   <li class="content-tags-list-item">
@@ -101,7 +131,7 @@
                </ul>
                <h3 class="trends-content-title">
                   <a href="" class="trends-content-title-link">Сейчас в тренде: сколько
-витамина c в лимонах? </a>
+                  витамина c в лимонах? </a>
                </h3>
             </div>
          </article>
@@ -342,7 +372,7 @@
                         <li class="goods-price-new">800&#8381;</li>
                      </ul>
                      <a href="#0" class="goods-price-button">В магазин</a>
-                  </div>  
+                  </div>
                </div>
             </div>
             <div class="goods-block">
@@ -364,7 +394,7 @@
                         <li class="goods-price-new">3500&#8381;</li>
                      </ul>
                      <a href="#0" class="goods-price-button">В магазин</a>
-                  </div>  
+                  </div>
                </div>
             </div>
             <div class="goods-block">
@@ -387,9 +417,9 @@
                         <li class="goods-price-new">800&#8381;</li>
                      </ul>
                      <a href="#0" class="goods-price-button">В магазин</a>
-                  </div>  
+                  </div>
                </div>
-            </div>          
+            </div>
          </div>
       </div>
       <footer class="footer container">
