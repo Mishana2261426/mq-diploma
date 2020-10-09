@@ -795,6 +795,7 @@ body {
 		display: flex;
 		justify-content: space-around;
 		margin: 0;
+		text-align: left;
 	}
 
 	.socials-item:nth-child(n+2) {
