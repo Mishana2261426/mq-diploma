@@ -189,12 +189,11 @@ body {
 	position: absolute;
 	z-index: 3;
 	border: 3px solid #8c7641;
-	padding-left: 32px;
+	padding-left: 5%;
 	padding-top: 20px;
 	padding-bottom: 5px;
-	padding-right: 43px;
 	bottom: 20px;
-	width: 65%;
+	width: 80%;
 }
 
 .trends-content-title {
@@ -554,11 +553,11 @@ body {
 	padding-left: 0;
 	margin-top: 0;
 	margin-bottom: 0;
-	display: flex;
-	justify-content: space-around;
+	text-align: center;
 }
 
 .socials-item {
+	display: inline-block;
 }
 
 .socials-link {
@@ -566,6 +565,10 @@ body {
 	width: 25px;
 	height: 25px;
 	background-size: contain;
+}
+
+.socials-item:nth-child(n+2) {
+	margin-left: 30px;
 }
 
 .socials-link-twitter {
@@ -786,6 +789,16 @@ body {
 	.goods-block {
 		width: 100%;
 		margin-bottom: 20px;
+	}
+
+	.socials {
+		display: flex;
+		justify-content: space-around;
+		margin: 0;
+	}
+
+	.socials-item:nth-child(n+2) {
+		margin-left: 0;
 	}
 
 }
