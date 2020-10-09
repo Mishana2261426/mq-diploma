@@ -66,6 +66,10 @@ body {
 	width: 182px;
 }
 
+.mobile-logo {
+	display: none;
+}
+
 .hamburger-menu {
 	display: none;
 }
@@ -461,7 +465,7 @@ body {
 }
 
 .goods-img {
-	width: 300px;
+	width: 90%;
 	margin-right: auto;
 	margin-left: auto;
 	display: block;
@@ -620,7 +624,7 @@ body {
 	}
 
 	.header-title-container {
-		width: auto;
+		width: 100%
 	}
 
 	.container {
@@ -675,3 +679,122 @@ body {
 	}
 	
 }
+
+@media (max-width: 641px) {
+
+	body {
+		font-size: 14px;
+	}
+
+	.header {
+		min-width: 0;
+		background-image: url(../images/banner-mobile.jpg);
+	}
+
+	.navigation {
+		justify-content: flex-end;
+	}
+
+	.header-logo {
+		display: none;
+	}
+
+	.mobile-logo {
+		display: block;
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 50px;
+	}
+
+	.header-title-container {
+		width: 80%
+	}
+
+	.header-title {
+		font-size: 2em;
+	}
+
+	.container-main {
+		flex-wrap: wrap;
+	}
+
+	.container {
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		box-sizing: border-box;
+	}
+
+	.menu {
+		display: none;
+	}
+
+	.hamburger-menu {
+		display: block;
+	}
+
+	.trends-block {
+		width: 100%;
+		margin-bottom: 2px;
+	}
+
+	.body {
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.sidebar {
+		width: 100%;
+	}
+
+	.posts-content {
+		width: 100%
+	}
+
+	.news {
+		flex-wrap: wrap;
+	}
+
+	.news-img {
+		width: 100%;
+		margin-right: 0;
+	}
+
+	.news-content {
+		width: 100%;
+	}
+
+	.email-form-button {
+		width: 100%;
+	}
+
+	.goods {
+		flex-wrap: wrap;
+	}
+
+	.goods-block {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
