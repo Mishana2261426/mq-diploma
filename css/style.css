@@ -555,15 +555,11 @@ body {
 	padding-left: 0;
 	margin-top: 0;
 	margin-bottom: 0;
-	text-align: center;
+	display: flex;
+	justify-content: space-around;
 }
 
 .socials-item {
-	display: inline-block;
-}
-
-.socials-item:nth-child(n+2) {
-	margin-left: 30px;
 }
 
 .socials-link {
@@ -772,6 +768,10 @@ body {
 
 	.email-form-button {
 		width: 100%;
+	}
+
+	.tags-list {
+		margin-right: 0;
 	}
 
 	.goods {
