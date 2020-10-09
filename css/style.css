@@ -194,11 +194,10 @@ body {
 	padding-bottom: 5px;
 	padding-right: 43px;
 	bottom: 20px;
-	width: 70%;
+	width: 65%;
 }
 
 .trends-content-title {
-	margin-right: 37px;
 	text-transform: uppercase;
 	font-size: 1.1em;
 	line-height: 24px;
@@ -676,6 +675,12 @@ body {
 	
 }
 
+@media (min-width: 641px) and (max-width: 1200px) and (orientation: landscape) {
+	.trends-block {
+		width: 24.9%;
+	}
+}
+
 @media (max-width: 641px) {
 
 	body {
@@ -783,6 +788,12 @@ body {
 		margin-bottom: 20px;
 	}
 
+}
+
+@media (max-width: 641px) and (orientation: landscape) {
+	.trends-block {
+		width: 49%;
+	}
 }
 
 
