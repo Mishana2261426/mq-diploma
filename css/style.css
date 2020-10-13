@@ -345,8 +345,8 @@ body {
 	padding-bottom: 5px;
 	bottom: 20px;
 	width: calc(100% - 30px);
-	margin-right: 15px;
-	margin-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
 	box-sizing: border-box;
 	max-width: 460px
 }
