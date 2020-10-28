@@ -340,7 +340,7 @@ body {
 	position: absolute;
 	z-index: 3;
 	border: 3px solid #8c7641;
-	padding-left: 5%;
+	padding-left: 15px;
 	padding-top: 20px;
 	padding-bottom: 5px;
 	bottom: 20px;
@@ -348,7 +348,7 @@ body {
 	margin-right: auto;
 	margin-left: auto;
 	box-sizing: border-box;
-	max-width: 460px
+	max-width: 100%;
 }
 
 .trends-content-title {
@@ -361,6 +361,10 @@ body {
 .trends-content-title-link {
 	text-decoration: none;
 	color: #fff;
+}
+
+.trends-content-title-link:hover {
+	color: #b59f5b;
 }
 
 .news {
@@ -424,8 +428,13 @@ body {
 	color: inherit;
 }
 
+.news-content-title-link:hover {
+	color: #b59f5b;
+}
+
 .news-content-publication {
 	margin-top: 15px;
+	margin-bottom: 20px;
 }
 
 .news-publication-date {
@@ -511,6 +520,10 @@ body {
 	text-decoration: none;
 }
 
+.posts-content-title-link:hover {
+	color: #b59f5b;
+}
+
 .search-form {
 	display: flex;
 }
@@ -535,6 +548,10 @@ body {
 .form-button {
 	background-color: #b59f5b;
 	border: 0;
+}
+
+.form-button:hover {
+	background-color: #323232;
 }
 
 .search-form-button {
@@ -584,6 +601,10 @@ body {
 	border: 4px solid #eeeeee;
 }
 
+.tags-link:hover {
+	border: 4px solid #b59f5b;
+}
+
 .themes-list {
 	padding: 0;
 }
@@ -595,7 +616,7 @@ body {
 }
 
 .themes-list-item:nth-child(n+2) {
-	margin-top: 21px;
+	margin-top: 12px;
 }
 
 .themes-link {
@@ -603,6 +624,10 @@ body {
 	color: #000000;
 	font-weight: 700;
 	font-size: 1em;
+}
+
+.themes-link:hover {
+	color: #b59f5b;
 }
 
 .themes-num {
@@ -658,6 +683,10 @@ body {
 	text-decoration: none;
 }
 
+.goods-text-link:hover {
+	text-decoration: underline;
+}
+
 .goods-price {
 	display: flex;
 	flex-direction: row;
@@ -695,6 +724,10 @@ body {
 	font-size: 1em;
 	width: 140px;
 	height: 48px;
+}
+
+.goods-price-button:hover {
+	background-color: #323232;
 }
 
 .footer {
@@ -814,6 +847,10 @@ body {
 		margin-right: auto;
 	}
 
+	.content-tags-list {
+		margin-top: 15px;
+	}
+
 	.news {
 		flex-wrap: wrap;
 		margin-right: 30px;
@@ -826,6 +863,15 @@ body {
 
 	.news-content {
 		width: 100%;
+	}
+
+	.news-content-title {
+		margin-top: 7px;
+		margin-bottom: 10px;
+	}
+
+	.news-content-text {
+		margin-top: 0;
 	}
 
 	.email-form-button {
