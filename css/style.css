@@ -371,6 +371,7 @@ body {
 .news {
 	display: flex;
 	align-items: flex-start;
+	border-bottom: 3px solid #eeeeee;
 }
 
 .news-img {
@@ -380,6 +381,10 @@ body {
 
 .news:nth-child(n+2) {
 	margin-top: 57px;
+}
+
+.news:last-child {
+	border-bottom: 0;
 }
 
 .news-content {
@@ -596,7 +601,7 @@ body {
 .tags-link {
 	text-decoration: none;
 	color: #0f0d0e;
-	font-size: 0.9em;
+	font-size: 1em;
 	padding: 5px 12px;
 	display: block;
 	border: 4px solid #eeeeee;
@@ -933,7 +938,13 @@ body {
 	}
 
 	.title {
-		margin-top: 44px;
+		margin-top: 24px;
+		font-size: 1.2em;
+		margin-bottom: 24px;
+	}
+
+	.title::after {
+		margin: 4px auto 0;
 	}
 
 	.navigation {
@@ -962,6 +973,7 @@ body {
 
 	.container-main {
 		flex-wrap: wrap;
+		margin-bottom: 0;
 	}
 
 	.container {
@@ -985,6 +997,11 @@ body {
 		margin-bottom: 2px;
 	}
 
+	.trends-content-title {
+		margin-top: 5px;
+		font-size: 1.2em;
+	}
+
 	.body {
 		width: 100%;
 		margin-left: auto;
@@ -993,11 +1010,21 @@ body {
 
 	.content-tags-list {
 		margin-right: 0;
+		margin-top: 10px;
 	}
 
 
 	.sidebar {
 		width: 100%;
+	}
+
+	.sidebar-title {
+		font-size: 1.2em;
+		margin-bottom: 24px;
+	}
+
+	.sidebar-block:nth-child(n+2) {
+		margin-top: 44px;
 	}
 
 	.posts-content {
@@ -1017,6 +1044,16 @@ body {
 		width: 100%;
 	}
 
+	.news-content-title {
+		margin-top: 10px;
+		margin-bottom: 0;
+	}
+
+	.news-content-publication {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
 	.email-form-button {
 		width: 100%;
 	}
@@ -1034,15 +1071,52 @@ body {
 		margin-bottom: 20px;
 	}
 
+	.goods-content {
+		height: auto;
+		padding-bottom: 26px;
+	}
+
+	.goods-text-link {
+		text-decoration: underline;
+	}
+
+	.goods-price-button {
+		font-weight: 700;
+	}
+
 	.socials {
-		display: flex;
-		justify-content: space-around;
-		margin: 0;
-		text-align: left;
+		list-style: none;
+		padding-left: 0;
+		margin-top: 0;
+		margin-bottom: 0;
+		text-align: center;
+	}
+
+	.socials-item {
+		display: inline-block;
+	}
+
+	.socials-link {
+		display: block;
+		width: 25px;
+		height: 25px;
+		background-size: contain;
 	}
 
 	.socials-item:nth-child(n+2) {
-		margin-left: 0;
+		margin-left: 30px;
+	}
+
+	.footer {
+		margin-top: 40px;
+	}
+
+	.copy {
+		margin-top: 50px;
+	}
+
+	.copy-link {
+		font-size: 0.9em;
 	}
 
 }
