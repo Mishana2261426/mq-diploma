@@ -371,7 +371,6 @@ body {
 .news {
 	display: flex;
 	align-items: flex-start;
-	border-bottom: 3px solid #eeeeee;
 }
 
 .news-img {
@@ -484,7 +483,7 @@ body {
 .sidebar-title::after {
 	content: "";
 	display: block;
-	border-bottom: 4px solid #e1d9bd;
+	border-bottom: 3px solid #e1d9bd;
 	width: 66px;
 	margin: 10px auto 0;
 }
@@ -860,6 +859,7 @@ body {
 	.news {
 		flex-wrap: wrap;
 		margin-right: 30px;
+		border-bottom: 3px solid #eeeeee;
 	}
 
 	.news-img {
@@ -1033,6 +1033,7 @@ body {
 
 	.news {
 		flex-wrap: wrap;
+		border-bottom: 3px solid #eeeeee;
 	}
 
 	.news-img {
